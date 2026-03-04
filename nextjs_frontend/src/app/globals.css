@@ -1,10 +1,20 @@
 @import "tailwindcss";
 
+/* Google Material Symbols Outlined font (for sidebar/topbar icons) */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200');
+
+/* App shell utility classes */
+@import "./ui/AppShell.css";
+
 :root {
-  --color-primary: #000000;
-  --color-secondary: #FFFFFF;
+  --color-primary: #111827;
+  --color-secondary: #64748b;
   --color-accent: #3B82F6;
-  --color-background: #FFFFFF;
+  --color-accent2: #06b6d4;
+  --color-error: #EF4444;
+  --color-success: #06b6d4;
+  --color-background: #f9fafb;
+  --color-surface: #ffffff;
 }
 
 * {
